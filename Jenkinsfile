@@ -1,9 +1,9 @@
-pipeline {
+spipeline {
   agent any
   environment {
     APPSYSID = '85fc655bdb3be410ad2b2ab74b961931'
     BRANCH = "${Jenkinsfile}"
-    CREDENTIALS = 'ServiceNow'
+    CREDENTIALS = 'devopspipe'
     DEVENV = 'https://highmetricllcdemo10.service-now.com/'
     TESTENV = 'https://highmetricllcslsdemo16.service-now.com/navpage.do'
     PRODENV = 'https://highmetricllcdemo13.service-now.com/'
