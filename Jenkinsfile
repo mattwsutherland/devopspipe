@@ -4,9 +4,9 @@ pipeline {
     APPSYSID = '85fc655bdb3be410ad2b2ab74b961931'
     BRANCH = "${Jenkinsfile}"
     CREDENTIALS = 'ServiceNow'
-    DEVENV = 'https://https://highmetricllcdemo13.service-now.com//'
+    DEVENV = 'https://highmetricllcdemo10.service-now.com/'
     TESTENV = 'https://highmetricllcslsdemo16.service-now.com/navpage.do'
-    PRODENV = 'https://highmetricllcdemo10.service-now.com/'
+    PRODENV = 'https://highmetricllcdemo13.service-now.com/'
     TESTSUITEID = 'b1ae55eedb541410874fccd8139619fb'
   }
   stages {
